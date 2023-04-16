@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font-awesome script -->
+    <script src="https://kit.fontawesome.com/aa4b91f6ec.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://lever-client-logos.s3.us-west-2.amazonaws.com/a6523e9b-64a4-4e66-adef-752e0912cd12-1614106209127.png"
+                    class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portifolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <!-- <i class="fa-regular fa-circle-xmark"></i> -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I am <span>ANKIT ARORA </span>, <br>FrontEnd Developer.</h1>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- -----------about---------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="aboutme3.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a front-end developer with almost 6 months of experience. I am confident in
+                        my abilities to convert any design to code.
+                        My professional ambition is to stay versatile and grow with each day. Personally, I
+                        love the hustle of the tech world. Learning and sharing my knowledge makes me the happiest.</p>
+                    <div class="tab-titles">
+                        <!-- onclick used to display thr information in these 3 tabs  -->
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class=" tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- Skills -->
+                    <div class=" tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Designing Web/App interfaces</li>
+                            <li><span>Web Development(HTML,CSS,JS,REACTJS)</span><br> Web app Development</li>
+                            <li><span>App Development</span><br> Building Androids/ios apps</li>
+                            <li><span>JAVA with DSA</span> <br> Logic building</li>
+                        </ul>
+                    </div>
+                    <!-- EXPERIENCE  -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - current</span><br> Trainee at newton school</li>
+
+                        </ul>
+                    </div>
+                    <!-- Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br> Full Stack web Development </li>
+                            <li><span>2021</span><br> MBA - Singhania University</li>
+                            <li><span>2018</span><br> BBA - GGSIU(IP University)</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- -------services------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <!-- web design -->
+                <div>
+                    <!-- logo link from font-awesome -->
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>Web design is the creation of websites and pages to reflect a company's brand and information and
+                        ensure a user-friendly experience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <!-- ui/ux desciption -->
+                <div>
+                    <!-- logo link from font-awesome -->
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI UX designers create the user interface for an app, website, or other interactive media. Their
+                        work includes collaborating with product managers and engineers to gather requirements from
+                        users before designing</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <!-- app design -->
+                <div>
+                    <!-- logo link from font-awesome -->
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design is an ongoing process comprising user experience (UX) and user interface (UI)
+                        elements..</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------portifolio-------------- -->
+    <div id="portifolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connect you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connect you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connect you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+
+
+        </div>
+    </div>
+    <!-- -------------contact---------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>ankitarora7203@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8448313790</p>
+                    <!-- ----------social-icons------------- -->
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2">Download Cv</a>
+
+
+
+                </div>
+                <div class="contact-right"></div>
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Ankit Arora.<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        //defining opentab/on-click  function
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            //display the content 
+            event.currentTarget.classList.add("active-link");// this shows the active color (red underline color)
+            document.getElementById(tabname).classList.add("active-tab")//this calls the opentab function & show the content as we click them
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
